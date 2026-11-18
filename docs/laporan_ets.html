@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Laporan Evaluasi Tengah Semester - Pemrograman Mobile 2</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 20mm 15mm 20mm 15mm;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+      font-size: 11pt;
+    }
+    .header-box {
+      border-bottom: 3px double #003366;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .header-box h2 {
+      margin: 0;
+      color: #003366;
+      font-size: 16pt;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-box h3 {
+      margin: 4px 0;
+      color: #333;
+      font-size: 13pt;
+      font-weight: 600;
+    }
+    .header-box p {
+      margin: 2px 0;
+      font-size: 10pt;
+      color: #555;
+    }
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+    }
+    .info-table td {
+      padding: 8px 12px;
+      border: 1px solid #dee2e6;
+      font-size: 10.5pt;
+    }
+    .info-table td.label {
+      width: 25%;
+      font-weight: bold;
+      background: #eef2f7;
+      color: #003366;
+    }
+    .declaration-box {
+      border: 1px solid #0d6efd;
+      background-color: #f0f7ff;
+      border-left: 5px solid #0d6efd;
+      padding: 12px 16px;
+      margin-bottom: 25px;
+      border-radius: 4px;
+      font-size: 10pt;
+    }
+    h2.section-title {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+      margin-top: 28px;
+      font-size: 13pt;
+      text-transform: uppercase;
+    }
+    h3.sub-title {
+      color: #2b4c7e;
+      font-size: 11.5pt;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+    p, li {
+      text-align: justify;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      font-size: 10pt;
+    }
+    table.data-table th, table.data-table td {
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+    }
+    table.data-table th {
+      background-color: #003366;
+      color: #ffffff;
+      font-weight: 600;
+      text-align: left;
+    }
+    table.data-table tr:nth-child(even) {
+      background-color: #f9fbfd;
+    }
+    pre {
+      background-color: #f4f6f9;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+      padding: 12px;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 9pt;
+      overflow-x: auto;
+      line-height: 1.45;
+    }
+    code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #eef2f7;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-size: 9.5pt;
+      color: #b02a37;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+      color: #24292e;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 9pt;
+      font-weight: bold;
+    }
+    .badge-success { background: #d1e7dd; color: #0f5132; }
+    .badge-info { background: #cff4fc; color: #055160; }
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-box">
+    <h2>YAYASAN PAKUAN SILIWANGI</h2>
+    <h2>UNIVERSITAS PAKUAN - SEKOLAH VOKASI</h2>
+    <h3>PROGRAM STUDI MANAJEMEN INFORMATIKA</h3>
+    <p>Jl. Pakuan PO BOX 452 Bogor 16143 | Email: sekretariat.diploma3@unpak.ac.id</p>
+    <p><strong>EVALUASI TENGAH SEMESTER (ETS) GANJIL TAHUN AKADEMIK 2026/2027</strong></p>
+  </div>
+
+  <table class="info-table">
+    <tr>
+      <td class="label">Mata Kuliah</td>
+      <td>Pemrograman Mobile 2 (3 SKS)</td>
+      <td class="label">Semester / Kelas</td>
+      <td>5 / Manajemen Informatika</td>
+    </tr>
+    <tr>
+      <td class="label">Nama Mahasiswa</td>
+      <td><strong>sheva_adrian</strong></td>
+      <td class="label">NPM Mahasiswa</td>
+      <td><strong>085024002</strong></td>
+    </tr>
+    <tr>
+      <td class="label">Sifat Ujian</td>
+      <td>Take-Home Exam (Individu)</td>
+      <td class="label">Dosen Penguji</td>
+      <td>M. Saad Nurul Ishlah, M.Comp.</td>
+    </tr>
+  </table>
+
+  <div class="declaration-box">
+    <strong>PERNYATAAN INTEGRITAS AKADEMIK:</strong><br>
+    <em>"Dengan mengumpulkan hasil ujian ini, saya menyatakan bahwa pekerjaan ini benar-benar saya kerjakan secara mandiri dan jujur, mencantumkan sumber dan bantuan AI yang digunakan, serta siap menjelaskan dan mempertanggungjawabkan seluruh hasil pekerjaan saya."</em>
+    <br><br>
+    <strong>Yang membuat pernyataan:</strong> sheva_adrian (NPM: 085024002)
+  </div>
+
+  <h2 class="section-title">1. MODEL DATA DAN NULL SAFETY (15 Poin)</h2>
+  
+  <h3 class="sub-title">1.1 Konsep Null Safety di Dart</h3>
+  <p>Dart 2.12+ secara default menerapkan <em>Sound Null Safety</em>. Sistem tipe Dart membedakan secara ketat antara tipe yang tidak dapat menerima nilai null (*non-nullable*) dan tipe yang diperbolehkan bernilai null (*nullable*). Dengan sound null safety, kompilator dapat menjamin bahwa variabel non-nullable tidak akan pernah bernilai <code>null</code> saat aplikasi berjalan (menghilangkan potensi <code>NoSuchMethodError</code> atau <code>NullPointerException</code>).</p>
+
+  <h3 class="sub-title">1.2 Perbedaan <code>String</code> dan <code>String?</code></h3>
+  <ul>
+    <li><strong><code>String</code> (Non-nullable)</strong>: Wajib selalu memegang referensi ke objek teks nyata. Kompilator menolak pemberian nilai <code>null</code> baik saat inisialisasi maupun penugasan ulang. Digunakan untuk atribut yang mutlak harus ada, seperti <code>title</code> dan <code>author</code>.</li>
+    <li><strong><code>String?</code> (Nullable)</strong>: Diizinkan memegang referensi string atau bernilai <code>null</code>. Tanda tanya (<code>?</code>) menginstruksikan kompilator bahwa atribut tersebut bersifat opsional, seperti pada properti <code>description</code>.</li>
+  </ul>
+
+  <h3 class="sub-title">1.3 Parameter <code>required</code></h3>
+  <p>Kata kunci <code>required</code> disematkan pada *named parameters* dalam konstruktor kelas untuk menandakan bahwa pemanggil konstruktor wajib menyediakan nilai pada argumen tersebut saat instansiasi objek. Jika diabaikan oleh pemanggil, kesalahan kompilasi (*compile-time error*) akan langsung dimunculkan.</p>
+
+  <h3 class="sub-title">1.4 Strategi Penanganan Deskripsi Null</h3>
+  <p>Untuk menangani deskripsi null secara informatif, kelas <code>Book</code> mengimplementasikan getter aman:</p>
+  <pre><code>class Book {
+  final String id;
+  final String title;
+  final String author;
+  final int year;
+  final String? description;
+
+  const Book({
+    required this.id,
+    required this.title,
+    required this.author,
+    required this.year,
+    this.description,
+  });
+
+  bool get hasDescription =>
+      description != null && description!.trim().isNotEmpty;
+
+  String get displayDescription =>
+      hasDescription ? description! : 'Deskripsi belum tersedia untuk buku ini.';
+}</code></pre>
+
+  <p>Aplikasi membuat 4 objek buku statis, di mana buku ke-3 sengaja tidak memiliki deskripsi (<code>description: null</code>) untuk memverifikasi penanganan null safety di antarmuka:</p>
+  <ul>
+    <li><strong>Buku 1</strong>: <em>Clean Architecture: A Craftsman's Guide</em> (Robert C. Martin, 2017) — Memiliki deskripsi.</li>
+    <li><strong>Buku 2</strong>: <em>Flutter Apprentice: Multiplatform Apps</em> (Raywenderlich Team, 2021) — Memiliki deskripsi.</li>
+    <li><strong>Buku 3</strong>: <em>Algoritma dan Pemrograman</em> (Rinaldi Munir, 2018) — <strong><code>description: null</code></strong>.</li>
+    <li><strong>Buku 4</strong>: <em>Refactoring: Improving Code Design</em> (Martin Fowler, 2018) — Memiliki deskripsi.</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <h2 class="section-title">2. TAMPILAN DAN LAYOUT RESPONSIF & ADAPTIF (20 Poin)</h2>
+
+  <h3 class="sub-title">2.1 Perbedaan Responsive UI dan Adaptive UI</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Karakteristik</th>
+        <th>Responsive UI</th>
+        <th>Adaptive UI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Fokus Penyesuaian</strong></td>
+        <td>Ukuran fisik layar, rasio aspek, lebar-tinggi piksel, dan orientasi layar (Portrait vs Landscape).</td>
+        <td>Sistem operasi atau platform target (Android, iOS, macOS, Windows, Web) serta gaya interaksinya.</td>
+      </tr>
+      <tr>
+        <td><strong>Prinsip Kerja</strong></td>
+        <td>Menata ulang posisi widget (misal: 1 kolom menjadi 2 kolom grid) menggunakan kalkulasi dimensi dinamis.</td>
+        <td>Mengubah komponen widget dan kebiasaan UX agar natural sesuai pedoman OS (Human Interface vs Material Design).</td>
+      </tr>
+      <tr>
+        <td><strong>Komponen Flutter</strong></td>
+        <td><code>LayoutBuilder</code>, <code>MediaQuery</code>, <code>Expanded</code>, <code>Flexible</code>, <code>GridView</code>.</td>
+        <td><code>Theme.of(context).platform</code>, dialog adaptif (<code>showAdaptiveDialog</code>), tombol Cupertino vs Material.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-title">2.2 Penerapan Responsive UI dengan LayoutBuilder & MediaQuery</h3>
+  <p>Aplikasi menggunakan <code>LayoutBuilder</code> untuk membaca batasan lebar (<em>constraints.maxWidth</em>) dan <code>MediaQuery</code> untuk mendeteksi orientasi perangkat:</p>
+  <pre><code>return LayoutBuilder(
+  builder: (context, constraints) {
+    // Breakpoint: Layar lebar jika lebar >= 650px atau landscape
+    final isWideScreen = constraints.maxWidth >= 650 || 
+        (isLandscape && constraints.maxWidth >= 550);
+
+    return CustomScrollView(
+      slivers: [
+        SliverToBoxAdapter(child: OwnerHeader(isWideScreen: isWideScreen)),
+        if (isWideScreen)
+          SliverGrid(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              crossAxisSpacing: 12,
+              mainAxisSpacing: 12,
+              mainAxisExtent: 310,
+            ),
+            delegate: SliverChildBuilderDelegate(
+              (context, index) => BookCard(book: books[index]),
+              childCount: books.length,
+            ),
+          )
+        else
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              (context, index) => BookCard(book: books[index]),
+              childCount: books.length,
+            ),
+          ),
+      ],
+    );
+  },
+);</code></pre>
+  <p>Hasilnya:
+    <br>• Pada smartphone vertikal (lebar &lt; 650px): Aplikasi menggunakan tata letak <strong>SliverList 1-kolom</strong>.
+    <br>• Pada tablet/desktop/landscape (lebar &ge; 650px): Aplikasi otomatis menyusun kartu dalam <strong>SliverGrid 2-kolom</strong> dengan proporsi yang simetris dan lega.
+  </p>
+
+  <h3 class="sub-title">2.3 Contoh Rancangan Adaptive UI</h3>
+  <p>Untuk menyempurnakan aspek adaptive di masa mendatang, aplikasi dapat merancang:</p>
+  <ul>
+    <li>Peralihan otomatis antara <code>AlertDialog</code> (Android) dan <code>CupertinoAlertDialog</code> (iOS) saat konfirmasi aksi.</li>
+    <li>Penggunaan kontrol sentuh (touch ripples) pada perangkat layar sentuh dan transisi hover kursor pada desktop/web.</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <h2 class="section-title">3. PENGELOLAAN STATE DENGAN RIVERPOD (25 Poin)</h2>
+
+  <h3 class="sub-title">3.1 Arsitektur State Management Reaktif</h3>
+  <p>Aplikasi memanfaatkan <strong>flutter_riverpod</strong> untuk mendistribusikan data tanpa coupling dengan widget tree.</p>
+
+  <h3 class="sub-title">3.2 Implementasi Provider</h3>
+  <pre><code>// 1. nameProvider & npmProvider (Identitas)
+final nameProvider = Provider&lt;String&gt;((ref) => StudentInfo.defaultName);
+final npmProvider = Provider&lt;String&gt;((ref) => StudentInfo.defaultNpm);
+
+// 2. booksProvider (Koleksi Buku)
+final booksProvider = Provider&lt;List&lt;Book&gt;&gt;((ref) => _initialBooks);
+
+// 3. infoProvider (Derived State menggabungkan nama dan jumlah buku)
+final infoProvider = Provider&lt;String&gt;((ref) {
+  final name = ref.watch(nameProvider);
+  final books = ref.watch(booksProvider);
+  return 'Nama saya $name, saya memiliki ${books.length} buku.';
+});
+
+// 4. expandedBookIdsProvider (State Notifier untuk Toggle Deskripsi)
+class ExpandedBooksNotifier extends Notifier&lt;Set&lt;String&gt;&gt; {
+  @override
+  Set&lt;String&gt; build() => &lt;String&gt;{};
+
+  void toggle(String bookId) {
+    if (state.contains(bookId)) {
+      state = {...state}..remove(bookId);
+    } else {
+      state = {...state, bookId};
+    }
+  }
+
+  bool isExpanded(String bookId) => state.contains(bookId);
+}
+
+final expandedBookIdsProvider =
+    NotifierProvider&lt;ExpandedBooksNotifier, Set&lt;String&gt;&gt;(
+  ExpandedBooksNotifier.new,
+);</code></pre>
+
+  <h3 class="sub-title">3.3 Perbandingan Provider, FutureProvider, dan StreamProvider</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Tipe Provider</th>
+        <th>Mekanisme Kerja</th>
+        <th>Nilai yang Dikeluarkan</th>
+        <th>Kapan Digunakan?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong><code>Provider</code></strong></td>
+        <td>Sinkron murni (*synchronous*). Mengembalikan data tetap atau hasil komputasi antar-provider.</td>
+        <td><code>T</code> (Objek langsung)</td>
+        <td>Data statis, service/repository instance, derived state (seperti <code>infoProvider</code>).</td>
+      </tr>
+      <tr>
+        <td><strong><code>FutureProvider</code></strong></td>
+        <td>Asinkron 1 kali (*single asynchronous execution*). Otomatis mengelola siklus loading, success, error.</td>
+        <td><code>AsyncValue&lt;T&gt;</code></td>
+        <td>Mengambil data dari REST API HTTP sekali saat halaman dibuka, membaca database SQLite lokal.</td>
+      </tr>
+      <tr>
+        <td><strong><code>StreamProvider</code></strong></td>
+        <td>Asinkron berkelanjutan (*continuous asynchronous events*). Mendengarkan aliran data secara real-time.</td>
+        <td><code>AsyncValue&lt;T&gt;</code></td>
+        <td>Aplikasi chat real-time (WebSocket), Firestore stream, sensor GPS/akselerometer berkala.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-break"></div>
+
+  <h2 class="section-title">4. ANIMASI SEDERHANA (IMPLICIT ANIMATION) (10 Poin)</h2>
+
+  <h3 class="sub-title">4.1 Penggunaan Implicit Animation</h3>
+  <p>Pada widget <code>BookCard</code>, antarmuka mengimplementasikan animasi implisit untuk memberikan respons visual yang memanjakan pengguna saat tombol ekspansi ditekan:</p>
+  <ul>
+    <li><strong><code>AnimatedContainer</code></strong>:
+      Menganimasikan perubahan dimensi tinggi, padding internal dari <code>EdgeInsets.zero</code> ke <code>EdgeInsets.all(12)</code>, dan perubahan warna latar belakang kotak deskripsi selama 300 milidetik dengan kurva <code>Curves.easeInOut</code>.
+    </li>
+    <li><strong><code>AnimatedOpacity</code></strong>:
+      Menganimasikan transparansi teks deskripsi secara halus dari <code>0.0</code> (transparan penuh) menjadi <code>1.0</code> (terlihat penuh) selama 250 milidetik. Hal ini mengeliminasi efek kedipan teks yang kasar.
+    </li>
+    <li><strong><code>AnimatedRotation</code></strong>:
+      Menganimasikan perputaran ikon panah sebesar 180 derajat (0.5 turn) untuk merefleksikan perubahan status buka/tutup.
+    </li>
+  </ul>
+
+  <h2 class="section-title">5. STRUKTUR APLIKASI DAN ANALISIS ARSITEKTUR (15 Poin)</h2>
+
+  <h3 class="sub-title">5.1 Pemisahan Folder Proyek</h3>
+  <pre><code>lib/
+├── constants/student_info.dart       # Informasi nama & NPM mahasiswa
+├── models/book.dart                  # Model entitas Book & Null Safety
+├── providers/
+│   ├── user_provider.dart            # nameProvider & npmProvider
+│   └── book_provider.dart            # booksProvider, infoProvider, expandedBookIdsProvider
+├── screens/home_screen.dart          # Layar antarmuka utama (View)
+├── widgets/
+│   ├── book_card.dart                # Komponen kartu buku & animasi
+│   ├── owner_header.dart             # Header identitas pemilik
+│   └── responsive_layout.dart        # Pengatur layout Sliver responsif
+└── main.dart                         # Inisialisasi ProviderScope & ThemeData</code></pre>
+
+  <h3 class="sub-title">5.2 Evaluasi Hubungan Pola MVVM (Model-View-ViewModel)</h3>
+  <ul>
+    <li><strong>Model (<code>models/book.dart</code>)</strong>: Merepresentasikan data murni dan aturan domain. Independen dari UI dan Riverpod.</li>
+    <li><strong>View (<code>screens/</code> & <code>widgets/</code>)</strong>: Murni bertugas merender UI dan mendengarkan perubahan data melalui <code>ref.watch()</code>. Tidak ada logika bisnis di dalam View.</li>
+    <li><strong>ViewModel (<code>providers/</code>)</strong>: Riverpod providers mengabstraksikan dan menyajikan state ke View. Aksi pengguna dialirkan ke Notifier melalui <code>ref.read(...)</code>.</li>
+    <li><strong>Bagian yang Belum Ada</strong>: Lapisan <em>Repository</em> dan <em>Data Source</em> (karena tugas ini menggunakan data statis in-memory tanpa database/API eksternal).</li>
+  </ul>
+
+  <h2 class="section-title">6. HASIL PENGUJIAN OTOMATIS (TEST REPORT)</h2>
+  <p>Seluruh pengujian unit dan pengujian widget yang mencakup konstruktor null safety, ketergantungan provider, state toggle, dan interaksi antarmuka telah dinyatakan <strong>LULUS (100% Pass)</strong>:</p>
+  <pre><code>00:00 +0: Model Data & Null Safety Tests Book constructor and null description handling
+00:00 +1: Riverpod Provider Tests infoProvider correctly combines name and books count
+00:00 +2: Riverpod Provider Tests expandedBookIdsProvider toggles book id state correctly
+00:00 +3: Widget Integration Tests App renders owner info and books list
+00:02 +4: Widget Integration Tests Tapping toggle displays fallback message for null description
+00:02 +5: All tests passed!</code></pre>
+
+  <h2 class="section-title">REFERENSI & SUMBER PUSTAKA</h2>
+  <ol>
+    <li>Google Developers. (2024). <em>Flutter Architectural Overview & Responsive Layouts</em>. Flutter Docs.</li>
+    <li>Roumanille, R. (2024). <em>Riverpod State Management Documentation</em>. riverpod.dev.</li>
+    <li>Dart Language Team. (2024). <em>Sound Null Safety Principles</em>. dart.dev.</li>
+    <li>Martin, R. C. (2017). <em>Clean Architecture: A Craftsman's Guide to Software Structure and Design</em>.</li>
+  </ol>
+
+</body>
+</html>

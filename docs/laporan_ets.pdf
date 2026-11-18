@@ -1,0 +1,597 @@
+%PDF-1.4
+1 0 obj
+<< /Length 5477 >>
+stream
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+45.00 811.89 Td
+(Evaluasi Tengah Semester \(ETS\) - Pemrograman Mobile 2 | sheva_adrian \(085024002\)) Tj ET
+0.8 0.8 0.8 RG 0.5 w
+45.00 806.89 m 550.28 806.89 l S
+0.0 0.2 0.4 rg
+BT /F2 14 Tf
+45.00 791.89 Td
+(UNIVERSITAS PAKUAN - SEKOLAH VOKASI) Tj ET
+0.2 0.2 0.2 rg
+BT /F2 11 Tf
+45.00 773.89 Td
+(LAPORAN EVALUASI TENGAH SEMESTER \(ETS\) GANJIL 2026/2027) Tj ET
+0.0 0.2 0.4 RG 1.5 w
+45.00 761.89 m 550.28 761.89 l S
+0.95 0.97 1.0 rg
+45.00 649.89 505.28 96.00 re f
+0.7 0.8 0.95 RG 0.8 w
+45.00 649.89 505.28 96.00 re S
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 731.89 Td
+(Nama Mahasiswa:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 731.89 Td
+(sheva_adrian) Tj ET
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 717.89 Td
+(NPM:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 717.89 Td
+(085024002) Tj ET
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 703.89 Td
+(Mata Kuliah:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 703.89 Td
+(Pemrograman Mobile 2 \(3 SKS\)) Tj ET
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 689.89 Td
+(Program Studi:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 689.89 Td
+(Manajemen Informatika \(Semester 5\)) Tj ET
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 675.89 Td
+(Dosen Penguji:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 675.89 Td
+(M. Saad Nurul Ishlah, M.Comp.) Tj ET
+0.0 0.2 0.4 rg
+BT /F2 9 Tf
+57.00 661.89 Td
+(Sifat Ujian:) Tj ET
+0.1 0.1 0.1 rg
+BT /F1 9 Tf
+185.00 661.89 Td
+(Take-home exam \(individu\)) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 639.89 Td
+(PERNYATAAN INTEGRITAS AKADEMIK: Saya menyatakan dengan sesungguhnya bahwa pekerjaan evaluasi ini) Tj ET
+BT /F1 9.5 Tf
+45.00 626.89 Td
+(saya kerjakan secara mandiri dan jujur, mencantumkan seluruh sumber pustaka serta bantuan AI yang) Tj ET
+BT /F1 9.5 Tf
+45.00 613.89 Td
+(digunakan, dan siap mempertanggungjawabkan hasilnya.) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 588.89 Td
+(1. MODEL DATA DAN NULL SAFETY \(Bobot: 15 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 582.89 m 550.28 582.89 l S
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 564.89 Td
+(1.1 Konsep Sound Null Safety) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 550.89 Td
+(Dart 2.12+ secara default menerapkan Sound Null Safety. Variabel non-nullable dijamin oleh) Tj ET
+BT /F1 9.5 Tf
+45.00 537.89 Td
+(kompilator tidak akan pernah bernilai null pada saat aplikasi dijalankan, sehingga mencegah) Tj ET
+BT /F1 9.5 Tf
+45.00 524.89 Td
+(timbulnya NoSuchMethodError atau runtime null crash.) Tj ET
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 503.89 Td
+(1.2 Perbedaan String vs String? dan Parameter required) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 489.89 Td
+(* String: Tipe non-nullable yang wajib menampung objek teks nyata dan tidak boleh bernilai) Tj ET
+BT /F1 9.5 Tf
+57.00 476.89 Td
+(null. Digunakan pada atribut wajib \(title, author, year\).) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 459.89 Td
+(* String?: Tipe nullable yang diizinkan memegang teks valid atau bernilai null. Digunakan) Tj ET
+BT /F1 9.5 Tf
+57.00 446.89 Td
+(pada atribut description karena bersifat opsional.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 429.89 Td
+(* required: Kata kunci pada named parameter konstruktor yang mewajibkan pemanggil mengisi) Tj ET
+BT /F1 9.5 Tf
+57.00 416.89 Td
+(argumen tersebut saat inisialisasi objek.) Tj ET
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 395.89 Td
+(1.3 Implementasi Kelas Book & Penanganan Deskripsi Null) Tj ET
+0.96 0.97 0.98 rg
+45.00 231.89 505.28 150.00 re f
+0.85 0.88 0.9 RG 0.6 w
+45.00 231.89 505.28 150.00 re S
+0.2 0.4 0.7 RG 2.5 w
+45.00 231.89 m 45.00 381.89 l S
+0.1 0.15 0.2 rg
+BT /F3 8 Tf
+55.00 369.89 Td
+(class Book {) Tj ET
+BT /F3 8 Tf
+55.00 358.39 Td
+(  final String id, title, author;) Tj ET
+BT /F3 8 Tf
+55.00 346.89 Td
+(  final int year;) Tj ET
+BT /F3 8 Tf
+55.00 335.39 Td
+(  final String? description;) Tj ET
+BT /F3 8 Tf
+55.00 323.89 Td
+() Tj ET
+BT /F3 8 Tf
+55.00 312.39 Td
+(  const Book\({required this.id, required this.title, required this.author,) Tj ET
+BT /F3 8 Tf
+55.00 300.89 Td
+(              required this.year, this.description}\);) Tj ET
+BT /F3 8 Tf
+55.00 289.39 Td
+() Tj ET
+BT /F3 8 Tf
+55.00 277.89 Td
+(  bool get hasDescription => description != null && description!.trim\(\).isNotEmpty;) Tj ET
+BT /F3 8 Tf
+55.00 266.39 Td
+(  String get displayDescription =>) Tj ET
+BT /F3 8 Tf
+55.00 254.89 Td
+(      hasDescription ? description! : 'Deskripsi belum tersedia untuk buku ini.';) Tj ET
+BT /F3 8 Tf
+55.00 243.39 Td
+(}) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 223.89 Td
+(Sedikitnya dibuat 4 objek buku statis di mana buku ke-3 \(Algoritma dan Pemrograman\) sengaja) Tj ET
+BT /F1 9.5 Tf
+45.00 210.89 Td
+(diset dengan description: null guna memverifikasi fallback UI.) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 185.89 Td
+(2. TAMPILAN DAN LAYOUT RESPONSIF & ADAPTIF \(Bobot: 20 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 179.89 m 550.28 179.89 l S
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 161.89 Td
+(2.1 Perbedaan Responsive UI vs Adaptive UI) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 147.89 Td
+(* Responsive UI: Menyesuaikan tata letak, ukuran, dan proporsi widget berdasarkan ukuran) Tj ET
+BT /F1 9.5 Tf
+57.00 134.89 Td
+(layar fisik \(lebar, tinggi, orientasi portrait vs landscape\).) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 117.89 Td
+(* Adaptive UI: Menyesuaikan tampilan dan mekanisme interaksi berdasarkan sistem operasi atau) Tj ET
+BT /F1 9.5 Tf
+57.00 104.89 Td
+(platform \(misal dialog Cupertino di iOS vs Material di Android, input mouse/keyboard vs) Tj ET
+BT /F1 9.5 Tf
+57.00 91.89 Td
+(sentuhan\).) Tj ET
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+277.64 30 Td
+(Halaman 1) Tj ET
+endstream
+endobj
+2 0 obj
+<< /Length 5510 >>
+stream
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+45.00 811.89 Td
+(Evaluasi Tengah Semester \(ETS\) - Pemrograman Mobile 2 | sheva_adrian \(085024002\)) Tj ET
+0.8 0.8 0.8 RG 0.5 w
+45.00 806.89 m 550.28 806.89 l S
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 787.89 Td
+(2.2 Penerapan LayoutBuilder dan MediaQuery) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 773.89 Td
+(Pada berkas responsive_layout.dart, aplikasi memanfaatkan LayoutBuilder untuk membaca batasan) Tj ET
+BT /F1 9.5 Tf
+45.00 760.89 Td
+(lebar \(constraints.maxWidth\) dan MediaQuery untuk mendeteksi orientasi:) Tj ET
+0.96 0.97 0.98 rg
+45.00 547.89 505.28 196.00 re f
+0.85 0.88 0.9 RG 0.6 w
+45.00 547.89 505.28 196.00 re S
+0.2 0.4 0.7 RG 2.5 w
+45.00 547.89 m 45.00 743.89 l S
+0.1 0.15 0.2 rg
+BT /F3 8 Tf
+55.00 731.89 Td
+(return LayoutBuilder\() Tj ET
+BT /F3 8 Tf
+55.00 720.39 Td
+(  builder: \(context, constraints\) {) Tj ET
+BT /F3 8 Tf
+55.00 708.89 Td
+(    final isWide = constraints.maxWidth >= 650 || \(isLandscape && constraints.maxWidt) Tj ET
+BT /F3 8 Tf
+55.00 697.39 Td
+(    return CustomScrollView\() Tj ET
+BT /F3 8 Tf
+55.00 685.89 Td
+(      slivers: [) Tj ET
+BT /F3 8 Tf
+55.00 674.39 Td
+(        SliverToBoxAdapter\(child: OwnerHeader\(isWideScreen: isWide\)\),) Tj ET
+BT /F3 8 Tf
+55.00 662.89 Td
+(        if \(isWide\)) Tj ET
+BT /F3 8 Tf
+55.00 651.39 Td
+(          SliverGrid\(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount\() Tj ET
+BT /F3 8 Tf
+55.00 639.89 Td
+(            crossAxisCount: 2, crossAxisSpacing: 12, mainAxisSpacing: 12, mainAxisExt) Tj ET
+BT /F3 8 Tf
+55.00 628.39 Td
+(            delegate: SliverChildBuilderDelegate\(\(_, i\) => BookCard\(book: books[i]\), ) Tj ET
+BT /F3 8 Tf
+55.00 616.89 Td
+(        else) Tj ET
+BT /F3 8 Tf
+55.00 605.39 Td
+(          SliverList\(delegate: SliverChildBuilderDelegate\(\(_, i\) => BookCard\(book: bo) Tj ET
+BT /F3 8 Tf
+55.00 593.89 Td
+(      ],) Tj ET
+BT /F3 8 Tf
+55.00 582.39 Td
+(    \);) Tj ET
+BT /F3 8 Tf
+55.00 570.89 Td
+(  },) Tj ET
+BT /F3 8 Tf
+55.00 559.39 Td
+(\);) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 539.89 Td
+(Pada mobile portrait \(< 650px\), buku ditampilkan dalam daftar vertikal 1-kolom. Pada) Tj ET
+BT /F1 9.5 Tf
+45.00 526.89 Td
+(tablet/layar lebar \(>= 650px\), tampilan otomatis beralih menjadi grid 2-kolom yang rapi.) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 501.89 Td
+(3. PENGELOLAAN STATE DENGAN RIVERPOD \(Bobot: 25 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 495.89 m 550.28 495.89 l S
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 477.89 Td
+(3.1 Aliran Data Antar-Provider Reaktif) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 463.89 Td
+(nameProvider menyediakan nama 'sheva_adrian' dan booksProvider menyediakan koleksi buku.) Tj ET
+BT /F1 9.5 Tf
+45.00 450.89 Td
+(infoProvider mengamati keduanya secara reaktif:) Tj ET
+0.96 0.97 0.98 rg
+45.00 237.89 505.28 196.00 re f
+0.85 0.88 0.9 RG 0.6 w
+45.00 237.89 505.28 196.00 re S
+0.2 0.4 0.7 RG 2.5 w
+45.00 237.89 m 45.00 433.89 l S
+0.1 0.15 0.2 rg
+BT /F3 8 Tf
+55.00 421.89 Td
+(final nameProvider = Provider<String>\(\(ref\) => StudentInfo.defaultName\);) Tj ET
+BT /F3 8 Tf
+55.00 410.39 Td
+(final npmProvider = Provider<String>\(\(ref\) => StudentInfo.defaultNpm\);) Tj ET
+BT /F3 8 Tf
+55.00 398.89 Td
+(final booksProvider = Provider<List<Book>>\(\(ref\) => _initialBooks\);) Tj ET
+BT /F3 8 Tf
+55.00 387.39 Td
+() Tj ET
+BT /F3 8 Tf
+55.00 375.89 Td
+(final infoProvider = Provider<String>\(\(ref\) {) Tj ET
+BT /F3 8 Tf
+55.00 364.39 Td
+(  final name = ref.watch\(nameProvider\);) Tj ET
+BT /F3 8 Tf
+55.00 352.89 Td
+(  final books = ref.watch\(booksProvider\);) Tj ET
+BT /F3 8 Tf
+55.00 341.39 Td
+(  return 'Nama saya $name, saya memiliki ${books.length} buku.';) Tj ET
+BT /F3 8 Tf
+55.00 329.89 Td
+(}\);) Tj ET
+BT /F3 8 Tf
+55.00 318.39 Td
+() Tj ET
+BT /F3 8 Tf
+55.00 306.89 Td
+(class ExpandedBooksNotifier extends Notifier<Set<String>> {) Tj ET
+BT /F3 8 Tf
+55.00 295.39 Td
+(  @override Set<String> build\(\) => <String>{};) Tj ET
+BT /F3 8 Tf
+55.00 283.89 Td
+(  void toggle\(String id\) => state = state.contains\(id\) ? \({...state}..remove\(id\)\) : \() Tj ET
+BT /F3 8 Tf
+55.00 272.39 Td
+(  bool isExpanded\(String id\) => state.contains\(id\);) Tj ET
+BT /F3 8 Tf
+55.00 260.89 Td
+(}) Tj ET
+BT /F3 8 Tf
+55.00 249.39 Td
+(final expandedBookIdsProvider = NotifierProvider<ExpandedBooksNotifier, Set<String>>\() Tj ET
+0.1 0.3 0.5 rg
+BT /F2 10 Tf
+45.00 225.89 Td
+(3.2 Perbedaan Provider, FutureProvider, dan StreamProvider) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 211.89 Td
+(* Provider: Sinkron. Menyediakan nilai konstan atau hasil kalkulasi komputasi antar-provider) Tj ET
+BT /F1 9.5 Tf
+57.00 198.89 Td
+(tanpa loading state \(contoh: infoProvider\).) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 181.89 Td
+(* FutureProvider: Asinkron satu kali. Menghasilkan AsyncValue dengan status loading, data,) Tj ET
+BT /F1 9.5 Tf
+57.00 168.89 Td
+(error. Cocok untuk REST API HTTP sekali panggil.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 151.89 Td
+(* StreamProvider: Asinkron berlanjut. Mendengarkan stream data real-time secara berkelanjutan) Tj ET
+BT /F1 9.5 Tf
+57.00 138.89 Td
+(\(contoh: WebSocket, chat, atau sensor GPS\).) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 113.89 Td
+(4. ANIMASI SEDERHANA \(IMPLICIT ANIMATION\) \(Bobot: 10 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 107.89 m 550.28 107.89 l S
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 93.89 Td
+(Pada widget BookCard, diterapkan tiga implicit animation saat pengguna menekan tombol) Tj ET
+BT /F1 9.5 Tf
+45.00 80.89 Td
+(lihat/sembunyikan deskripsi:) Tj ET
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+277.64 30 Td
+(Halaman 2) Tj ET
+endstream
+endobj
+3 0 obj
+<< /Length 4268 >>
+stream
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+45.00 811.89 Td
+(Evaluasi Tengah Semester \(ETS\) - Pemrograman Mobile 2 | sheva_adrian \(085024002\)) Tj ET
+0.8 0.8 0.8 RG 0.5 w
+45.00 806.89 m 550.28 806.89 l S
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 791.89 Td
+(* AnimatedContainer: Menganimasikan perubahan ukuran kotak, padding internal \(EdgeInsets.zero) Tj ET
+BT /F1 9.5 Tf
+57.00 778.89 Td
+(ke EdgeInsets.all\(12\)\), dan background color selama 300ms \(Curves.easeInOut\).) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 761.89 Td
+(* AnimatedOpacity: Menganimasikan opasitas teks deskripsi secara halus dari 0.0 \(transparan\)) Tj ET
+BT /F1 9.5 Tf
+57.00 748.89 Td
+(ke 1.0 \(tampak penuh\) selama 250ms.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 731.89 Td
+(* AnimatedRotation: Menganimasikan perputaran ikon chevron panah sebesar 180 derajat \(0.5) Tj ET
+BT /F1 9.5 Tf
+57.00 718.89 Td
+(putaran\) secara mulus.) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 693.89 Td
+(5. STRUKTUR APLIKASI DAN ANALISIS ARSITEKTUR \(Bobot: 15 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 687.89 m 550.28 687.89 l S
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 673.89 Td
+(Kode sumber dipisahkan secara modular mengikuti kaidah arsitektur MVVM:) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 656.89 Td
+(* models/book.dart: Model murni dan logika domain null safety entitas.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 639.89 Td
+(* providers/: Lapisan ViewModel Riverpod yang memproses data dan mempublikasikan state) Tj ET
+BT /F1 9.5 Tf
+57.00 626.89 Td
+(reaktif.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 609.89 Td
+(* screens/ & widgets/: Lapisan View yang fokus merender antarmuka dan menangkap interaksi) Tj ET
+BT /F1 9.5 Tf
+57.00 596.89 Td
+(pengguna.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 579.89 Td
+(Manfaat pemisahan ini memudahkan pengujian kode \(unit & widget test independen\) dan memudahkan) Tj ET
+BT /F1 9.5 Tf
+45.00 566.89 Td
+(pemeliharaan tanpa risiko regresi visual.) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 541.89 Td
+(6. HASIL PENGUJIAN OTOMATIS & PANDUAN DEMONSTRASI \(Bobot: 15 Poin\)) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 535.89 m 550.28 535.89 l S
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 521.89 Td
+(Hasil uji coba otomatis via 'flutter test' \(5/5 Lulus 100%\):) Tj ET
+0.96 0.97 0.98 rg
+45.00 423.89 505.28 81.00 re f
+0.85 0.88 0.9 RG 0.6 w
+45.00 423.89 505.28 81.00 re S
+0.2 0.4 0.7 RG 2.5 w
+45.00 423.89 m 45.00 504.89 l S
+0.1 0.15 0.2 rg
+BT /F3 8 Tf
+55.00 492.89 Td
+(00:00 +0: Model Data & Null Safety Tests Book constructor and null description handli) Tj ET
+BT /F3 8 Tf
+55.00 481.39 Td
+(00:00 +1: Riverpod Provider Tests infoProvider correctly combines name and books coun) Tj ET
+BT /F3 8 Tf
+55.00 469.89 Td
+(00:00 +2: Riverpod Provider Tests expandedBookIdsProvider toggles book id state corre) Tj ET
+BT /F3 8 Tf
+55.00 458.39 Td
+(00:00 +3: Widget Integration Tests App renders owner info and books list) Tj ET
+BT /F3 8 Tf
+55.00 446.89 Td
+(00:02 +4: Widget Integration Tests Tapping toggle displays fallback message for null ) Tj ET
+BT /F3 8 Tf
+55.00 435.39 Td
+(00:02 +5: All tests passed!) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 415.89 Td
+(Hasil analisis statis 'flutter analyze': No issues found! \(Kompilasi bersih dan bebas error\).) Tj ET
+0.0 0.25 0.5 rg
+BT /F2 11 Tf
+45.00 390.89 Td
+(KETERANGAN PENGGUNAAN AI & REFERENSI) Tj ET
+0.0 0.25 0.5 RG 0.8 w
+45.00 384.89 m 550.28 384.89 l S
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+45.00 370.89 Td
+(Alat AI yang digunakan: Gemini / Antigravity Agent. Membantu struktur arsitektur dasar,) Tj ET
+BT /F1 9.5 Tf
+45.00 357.89 Td
+(penulisan widget test, dan verifikasi null safety. Seluruh kode telah dipahami dan diverifikasi) Tj ET
+BT /F1 9.5 Tf
+45.00 344.89 Td
+(kelulusannya secara mandiri oleh mahasiswa.) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 327.89 Td
+(* Referensi 1: Dokumentasi Resmi Flutter: https://docs.flutter.dev/) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 310.89 Td
+(* Referensi 2: Dokumentasi Riverpod: https://riverpod.dev/) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 293.89 Td
+(* Referensi 3: Dart Sound Null Safety: https://dart.dev/null-safety) Tj ET
+0.15 0.15 0.15 rg
+BT /F1 9.5 Tf
+57.00 276.89 Td
+(* Referensi 4: RPS Pemrograman Mobile 2, SV Universitas Pakuan.) Tj ET
+0.4 0.4 0.4 rg
+BT /F1 8 Tf
+277.64 30 Td
+(Halaman 3) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 1 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 2 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 3 0 R >>
+endobj
+10 0 obj
+<< /Type /Pages /Kids [7 0 R 8 0 R 9 0 R] /Count 3 >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000005538 00000 n 
+0000011100 00000 n 
+0000015420 00000 n 
+0000015490 00000 n 
+0000015565 00000 n 
+0000015633 00000 n 
+0000015785 00000 n 
+0000015937 00000 n 
+0000016089 00000 n 
+0000016159 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R >>
+startxref
+16210
+%%EOF
