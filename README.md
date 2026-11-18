@@ -53,7 +53,7 @@ Aplikasi **Katalog Buku Pribadi** adalah aplikasi mobile berbasis Flutter yang m
 
 1. **Clone repository ini**:
    ```bash
-   git clone https://github.com/shevasarwono/ets-pemrograman-mobile-2-085024002.git
+   git clone https://github.com/sheevasarwono/ets-pemrograman-mobile-2-085024002.git
    cd ets-pemrograman-mobile-2-085024002
    ```
 2. **Unduh dependensi (packages)**:
