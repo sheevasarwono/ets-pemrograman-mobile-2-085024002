@@ -71,6 +71,30 @@ class BookCard extends ConsumerWidget {
                       ),
                     ),
                   ),
+                  const SizedBox(width: 4),
+                  // Fitur 3 yang Belum Berfungsi: Tombol Tandai Favorit
+                  InkWell(
+                    borderRadius: BorderRadius.circular(16),
+                    onTap: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text(
+                            '⚠️ Fitur Bookmark/Favorit buku belum berfungsi.',
+                          ),
+                          duration: Duration(milliseconds: 1500),
+                          behavior: SnackBarBehavior.floating,
+                        ),
+                      );
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Icon(
+                        Icons.bookmark_border,
+                        size: 18,
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
                 ],
               ),
               const SizedBox(height: 6),

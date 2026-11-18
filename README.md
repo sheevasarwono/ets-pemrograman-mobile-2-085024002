@@ -106,7 +106,12 @@ Video demonstrasi mencakup:
 
 ## ⚠️ Fitur yang Belum Berfungsi
 
-- **Status**: Seluruh fitur yang disyaratkan dalam soal evaluasi telah **100% selesai dan berfungsi dengan baik** (Model Data, Null Safety, Riverpod State, Implicit Animation, Responsive Layout, dan Unit/Widget Testing).
+Sesuai rancangan pengembangan aplikasi pada evaluasi ini, terdapat beberapa fitur tambahan yang sengaja disiapkan di antarmuka namun **belum berfungsi penuh (Under Development)** untuk ditunjukkan saat demonstrasi:
+1. **Fitur Tambah Buku Baru (`FloatingActionButton` +)**: Tombol *"Tambah Buku"* di pojok kanan bawah sudah tampil di UI, tetapi saat ditekan memunculkan notifikasi bahwa formulir input dan penyimpanan data lokal SQLite/API belum dihubungkan.
+2. **Fitur Pencarian & Filter Buku (Search Icon)**: Tombol ikon pencarian pada `AppBar` menampilkan pemberitahuan bahwa filter pencarian kata kunci judul/penulis masih dalam tahap pengembangan.
+3. **Fitur Bookmark / Tandai Favorit (Bookmark Icon)**: Ikon bookmark pada tiap kartu buku belum menyimpan daftar buku favorit secara permanen.
+
+> Seluruh fitur inti penilaian evaluasi (Model Data & Null Safety, Responsive Layout, State Management Riverpod, dan Implicit Animation) telah berfungsi dengan baik dan lulus seluruh pengujian otomatis.
 
 ---
 
