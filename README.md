@@ -92,8 +92,7 @@ Aplikasi **Katalog Buku Pribadi** adalah aplikasi mobile berbasis Flutter yang m
 
 ## 🎬 Tautan Video Demonstrasi
 
-- **Link Video Demonstrasi**: `[Tautan Video YouTube Unlisted / Drive Mahasiswa]`  
-  *(Pastikan tautan video dapat diakses oleh dosen penguji tanpa pembatasan izin)*
+- **Link Video Demonstrasi YouTube (Unlisted)**: [https://youtu.be/HTjuAv58DWk](https://youtu.be/HTjuAv58DWk)
 
 Video demonstrasi mencakup:
 1. Demonstrasi aplikasi saat pertama kali dibuka.
